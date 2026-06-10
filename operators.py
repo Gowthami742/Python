@@ -9,7 +9,7 @@ print(a*b) #multiplication
 print(a/b) #division
 print(a//b) #floor division
 print(a%b) #Remainder
-print(a**b) #Modulus '''
+print(a**b) #exponentiation '''
 
 '''price =200
 gst = 18
