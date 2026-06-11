@@ -9,7 +9,7 @@ print(a*b) #multiplication
 print(a/b) #division
 print(a//b) #floor division
 print(a%b) #Remainder
-print(a**b) #exponentiation '''
+print(a**b) #Modulus '''
 
 '''price =200
 gst = 18
@@ -89,5 +89,49 @@ print("distinction:",marks>=75)'''
 
 #Logical Operators 
 
+#and operator
 
 
+'''age =18
+marks=60
+print(age>=18 and marks>=60)'''
+
+#conditions:balance > withdrawal amount, card is active
+'''balance = 50000
+withdrawalamount = 20000
+cardactive = True 
+print(balance >= withdrawalamount and cardactive)'''
+
+#or operator
+
+'''email_login=False
+phone_login=True
+print(email_login or phone_login)'''
+
+'''day="sunday"
+print(day=="saturday" or day=="monday")'''
+
+#not operator 
+
+'''a=6
+b=5
+print(not(a>b))'''
+
+'''is_blocked=True
+print(not(is_blocked))
+'''
+
+'''age = 24
+degree=True
+blacklisted=False
+eligible=(age>=21 and age<=35) and degree and not blacklisted
+print(eligible)'''
+
+#Indentity Operators 
+'''x=10
+y=10
+print(x is y)'''
+
+'''a=10
+b=20
+print(a is not b)'''
