@@ -11,7 +11,7 @@
 
 # cal_sum(10,20)
 
-# funsction definition 
+# function definition 
 # def cal_sum(a, b): # paramaeters
 #     return a + b
 
@@ -106,13 +106,71 @@
 # cal_prod(5, 10) 
 
 
-def cal_avg(a, b , c):
-    sum = a + b + c
-    avg = sum/3
-    print(avg)
-    return avg
+# def cal_avg(a, b , c):
+#     sum = a + b + c
+#     avg = sum/3
+#     print(avg)
+#     return avg
 
-cal_avg(3, 4 ,5)
+# cal_avg(3, 4 ,5)
 
+#Types of Functions :
+ # 1. built-in functions
+# print()
+# len()
+# type()
+# input()
+#sum()
+# range()
+
+# numbers = [10,20,30, 40]
+# print(len(numbers))
+# print(type(numbers))
+# print(sum(numbers))
+
+
+# 2. User- defined functions :
+
+# def sum(a, b):
+#     sum = a + b
+#     print(sum)
+#     return sum 
+
+# sum(5,8)
+
+
+# WAF to print the square of a number
+# def square(n):
+   
+#    return n*n
+
+# result = square(5)  
+# print(result)
+
+# WAF to print the cube of a number
+
+# def cube(n):
+#     return n*n*n
+# result = cube(5)
+# print(result)
+
+# 3. Lambda function - small anonymous function 
+
+# square = lambda n: n * n
+# print(square(5))
+
+
+# cube = lambda n: n * n * n
+# print(cube(5))
+
+# 4. Recursion function 
+
+# def hello():
+#     print("hello")
+#     hello()
+
+
+
+#     hello()
 
 
